@@ -1,0 +1,83 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs and runtime output
+*.log
+logs/
+runs/
+wandb/
+tensorboard/
+
+# Training artifacts
+weight/
+weights/
+result/
+results/
+save/
+output/
+outputs/
+checkpoints/
+checkpoint/
+*.pth
+*.pth.tar
+*.pt
+*.ckpt
+*.pdf
+# Data and generated labels
+dataset/
+datasets/
+pseudo/
+pretrain/
+*.npy
+*.npz
+*.mat
+*.pkl
+
+# Archives and large downloads
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# OS files
+.DS_Store
+Thumbs.db
+tensorboard_stage2/
+result_smr/
+stage2-sal/
+datasetlinshi/
+
+tensorboard_stage1/
+openai.chatgpt-26.616.81150-linux-x64.vsix
+*d_tmp/
+*结果（第二阶段）/
+*figures/
+*papers/
+*结果（第一阶段）/
+
+temp/
+
+figures/
+weight_last/
+scripts/
