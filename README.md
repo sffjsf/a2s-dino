@@ -1,8 +1,10 @@
-Here is the English translation of the provided text:
+# Beyond Pseudo-Labels: Semantic-Guided Unsupervised Salient Object Detection
 
-# Two-Stage Training and Testing Commands
+## Introduce
 
-The following commands are executed in the project root directory `/home/zzx/laji/A2S-v3`, using GPU 0, for the RGB task and the DUT-O test set.
+This study builds on the A2S series of studies, specifically [A2S-v3](https://github.com/I2-Multimedia-Lab/A2S-v3). Therefore, most of the code implementation is consistent with or similar to that of A2S-v3. In addition, we referred to the code for DINO token generation in [VRF](https://github.com/bradleybin/VRF_WSOD).
+
+![alt text](fig/image.png)
 
 ## Stage 1: A2S + DINO affinity prior loss
 
@@ -146,3 +148,11 @@ Prediction results are saved by default to:
 ```text
 ./result/cornet/resnet/base/c_DUT-O/final
 ```
+
+## Result
+
+![alt text](fig/imagergb.png)
+
+![alt text](fig/image-1.png)
+
+![alt text](image.png)
