@@ -155,4 +155,4 @@ Prediction results are saved by default to:
 
 ![alt text](fig/image-1.png)
 
-![alt text](image.png)
+![alt text](fig/image2.png)
